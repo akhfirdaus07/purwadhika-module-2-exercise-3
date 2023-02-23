@@ -21,8 +21,7 @@ font-family: 'Zeyada', cursive; */
 }
 
 h1 {
-    background-color: var(--background-white);
-    font-size: 7rem;
+    font-size: 6rem;
 }
 
 /* Content */
@@ -54,7 +53,6 @@ h1 {
 .intro {
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
     
 }
 
@@ -68,16 +66,19 @@ h1 {
 .intro .right {
     display:flex;
     flex-direction: column;
-    justify-content: center;
-    
     gap:1rem;
-
-    margin-right: 10rem;
+    
+    padding-top:10rem;
 }
 
+.intro h1 {
+    background-color: var(--background-white);
+    margin-right: 10rem;
+    padding-left: 1rem;
+}
 
 .intro h2{
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .button-nav {
@@ -103,6 +104,7 @@ h1 {
     border: 3px solid black;
     border-radius: 10px;;
     cursor: pointer;
+    
 }
 
 .read-more:hover{
@@ -140,7 +142,7 @@ h1 {
 }
 
 .profile .middle img {
-    height: 500px;
+    height: 300px;
 }
 
 .profile .right {
@@ -159,7 +161,7 @@ h1 {
 /* Idea */
 
 .idea img {
-    height: 500px;
+    height: 300px;
 }
 
 .idea .left h1{
@@ -185,7 +187,7 @@ h1 {
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    margin: 0 20rem;
+    padding: 0 10rem;
 }
 
 .idea .right{
@@ -211,8 +213,8 @@ h1 {
 .capabilities .top{
     display: flex;
     flex-direction: column;
-    gap:2rem;
-    padding: 5rem 30rem;
+    gap:1rem;
+    padding: 5rem 10rem;
     text-align: center;
 }
 
@@ -220,7 +222,7 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 .capabilities .card{
@@ -228,12 +230,12 @@ h1 {
     border-radius: 10px;
     box-shadow: 5px 10px #888888;
 
-    height: 20rem;
-    width: 20rem;
+    height: 12rem;
+    width: 15rem;
     padding:3rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .card li:not(:last-child) { 
@@ -249,6 +251,7 @@ h1 {
     gap: 1rem;
     height: 15px;
     width: 100vw;
+    margin-top:2rem;
     padding: 1rem 0;
     border-top: 1px solid var(--border-color);
     background-color: var(--background-light);
