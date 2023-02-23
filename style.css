@@ -156,6 +156,51 @@ h1 {
     gap:1rem;
 }
 
+/* Idea */
+
+.idea img {
+    height: 500px;
+}
+
+.idea .left h1{
+    font-size: 5rem;
+    background-color: var(--background-yellow);
+}
+
+.idea .right h1{
+    font-size: 10rem;
+    font-family: 'Zeyada', cursive;
+    background-color: var(--background-yellow);
+}
+
+.idea{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.idea .left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 20rem;
+}
+
+.idea .right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.idea .read-more{
+    margin: 0;
+    width: 15rem;
+}
+
 /* Footer */
 
 .footer {
